@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+</head>
+<body>
+    <header class = "Drumkit"> Drum Kit</header>
+    <div class="title"> Press the following keys so hear a drum.</div>
+
+    <div class="buttons">
+        <button id="kick">Kick  <!--MAKING ALL THESE INDIVIDUAL BUTTONS ENABLES THEM TO BE TOGGLED AUTOMATICALL -->
+            <h2>A</h2>
+            <audio id="soundKick" src="" autoplay="false"></audio> <!-- HAVING THE URL FOR THE SOUND NOT DISPLAYED HERE ALLOWS US TO CALL UPON IT IN THE JS FILE. WE WANT THE AUTOPLAY TO EQUAL FALSE SO THAT IT WON'T AUTOMATICALLY PLAY THE SOUND BEFORE AN ACTION IS TAKEN.-->
+        </button>
+        <div class="hihat">HiHat
+            <h2>S</h2>
+        </div>
+        <div class="bass">Bass
+            <h2>D</h2>
+        </div>
+        <div class="clap">Clap
+            <h2>F</h2>
+        </div>
+        <div class="openhat">OpenHat
+            <h2>G</h2>
+        </div>
+        <div class="ride">Ride
+            <h2>H</h2>
+        </div>
+        <div class="snare">Snare
+            <h2>J</h2>
+        </div>
+        <div class="Bell">Bell
+            <h2>K</h2>
+        </div>
+        <div class="tom">Tom
+            <h2>L</h2>
+        </div>
+    </div>
+   
+    <script src="./app.js"></script>
+
+
+</body>
+</html>
