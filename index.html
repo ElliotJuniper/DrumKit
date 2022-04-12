@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Drum Kit</title>
 </head>
 <body>
@@ -11,34 +12,42 @@
     <div class="title"> Press the following keys so hear a drum.</div>
 
     <div class="buttons">
-        <button id="kick">Kick  <!--MAKING ALL THESE INDIVIDUAL BUTTONS ENABLES THEM TO BE TOGGLED AUTOMATICALL -->
+        <button id="kick">Kick  <!--MAKING ALL THESE INDIVIDUAL BUTTONS ENABLES THEM TO BE TOGGLED AUTOMATICALLY -->
             <h2>A</h2>
             <audio id="soundKick" src="" autoplay="false"></audio> <!-- HAVING THE URL FOR THE SOUND NOT DISPLAYED HERE ALLOWS US TO CALL UPON IT IN THE JS FILE. WE WANT THE AUTOPLAY TO EQUAL FALSE SO THAT IT WON'T AUTOMATICALLY PLAY THE SOUND BEFORE AN ACTION IS TAKEN.-->
         </button>
-        <div class="hihat">HiHat
+        <button id="hihat">HiHat
             <h2>S</h2>
-        </div>
-        <div class="bass">Bass
+            <audio id="soundHiHat" src="" autoplay="false"></audio>
+        </button>
+        <button id="bass">Bass
             <h2>D</h2>
-        </div>
-        <div class="clap">Clap
+            <audio id="soundBass" src="" autoplay="false"></audio>
+        </button>
+        <button id="clap">Clap
             <h2>F</h2>
-        </div>
-        <div class="openhat">OpenHat
+            <audio id="soundClap" src="" autoplay="false"></audio>
+        </button>
+        <button id="openhat">OpenHat
             <h2>G</h2>
-        </div>
-        <div class="ride">Ride
+            <audio id="soundOpenHat" src="" autoplay="false"></audio>
+        </button>
+        <button id="ride">Ride
             <h2>H</h2>
-        </div>
-        <div class="snare">Snare
+            <audio id="soundRide" src="" autoplay="false"></audio>
+        </button>
+        <button id="snare">Snare
             <h2>J</h2>
-        </div>
-        <div class="Bell">Bell
+            <audio id="soundSnare" src="" autoplay="false"></audio>
+        </button>
+        <button id="bell">Bell
             <h2>K</h2>
-        </div>
-        <div class="tom">Tom
+            <audio id="soundBell" src="" autoplay="false"></audio>
+        </button>
+        <button id="tom">Tom
             <h2>L</h2>
-        </div>
+            <audio id="soundTom" src="" autoplay="false"></audio>
+        </button>
     </div>
    
     <script src="./app.js"></script>
